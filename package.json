@@ -1,0 +1,34 @@
+{
+  "name": "nodejs-template",
+  "version": "1.0.0",
+  "description": "The Server for AuthKar authentication",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "prod": "set NODE_ENV=prod&& node server.js",
+    "dev": "set NODE_ENV=dev&& nodemon server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/R0HITKUMAR/AuthKar.git"
+  },
+  "author": "Rohit Kumar",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/R0HITKUMAR/AuthKar/issues"
+  },
+  "homepage": "https://github.com/R0HITKUMAR/AuthKar#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "crypto": "^1.0.1",
+    "dotenv": "^16.4.1",
+    "express": "^4.18.2",
+    "mongoose": "^8.4.3",
+    "nodemailer": "^6.9.9",
+    "nodemailer-express-handlebars": "^6.1.2",
+    "path": "^0.12.7",
+    "random-string-alphanumeric-generator": "^0.12.2"
+  }
+}
